@@ -1,0 +1,43 @@
+.semaforo {
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .botones-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  .active {
+    background-color: gray !important;
+  }
